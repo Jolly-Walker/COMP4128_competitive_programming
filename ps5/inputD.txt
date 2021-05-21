@@ -1,0 +1,12 @@
+3
+1 1
+1
+1 1 2 1
+
+def class_text_to_int(row_label):
+    if row_label == 'license_plate':
+        return 1
+    if row_label == 'car':
+        return 2
+    else:
+        None
